@@ -1,0 +1,327 @@
+nav.site-nav{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	padding-left: 2em;
+	background-color: white;
+}
+
+nav.site-nav ul{
+	list-style: none;
+	padding: 0;
+}
+
+nav.site-nav li{
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	color: black;
+	margin: 5px;
+	display: inline-block;
+	padding: 5px;
+	user-select: none;
+	position: relative;
+}
+
+nav.site-nav li:hover{
+	text-decoration: underline;
+}
+
+nav.site-nav li:active{
+	color: #aaa;
+}
+
+main{
+	margin-top: 100px;
+	font-family: sans-serif;
+}
+
+.project-header{
+	float: left;
+	font-size: 40px;
+	margin-left: 400px;
+	margin-bottom: 0px;
+	margin-top: 5px;
+	font-weight: bold;
+
+
+}
+
+
+.info-container{
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	max-width: 800px;
+	background-color: #ACFFF2;
+	
+}
+
+.intro{
+	font-family: sans-serif;
+	font-weight: normal;
+	max-width: 500px;
+	align-items: center;
+	text-align: left;
+	font-size: 30px;
+
+}
+
+.i-span{
+	font-weight: bold;
+}
+
+.short-bio{
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size: 20px;
+}
+
+.project-container{
+	margin-top: 50px;
+}
+
+.project-1{
+	max-width: 1100px;
+	min-width: 1000px;
+	background-color: #BEFFAC;
+	height: 300px;
+	margin-left: 50px;
+}
+
+.p1-info{
+	float: left;
+	font-family: sans-serif;
+	font-weight: normal;
+	width: 400px;
+	margin-left: 50px;
+	padding-top: 10px;
+	font-size: 20px;
+}
+
+#p1-header{
+	margin-bottom: 0px;
+	font-weight: bold;
+	font-size: 40px;
+	border-style: none none solid none;
+	border-color: black;
+
+}
+/*
+641x367
+*/
+#stormlight-img{
+	float: right;
+	margin-right: 50px;
+	width: 480.75px;
+	height: 275.25px;
+	padding-top: 10px;
+}
+
+.project-2{
+	max-width: 1100px;
+	min-width: 1000px;
+	background-color: #BEFFAC;
+	height: 300px;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+
+.p2-info{
+	float: left;
+	font-family: sans-serif;
+	font-weight: normal;
+	width: 400px;
+	margin-left: 50px;
+	padding-top: 10px;
+	font-size: 20px;
+}
+
+#p2-header{
+	margin-bottom: 0px;
+	font-weight: bold;
+	font-size: 40px;
+	border-style: none none solid none;
+	border-color: black;
+
+}
+
+#cooler-img{
+	float: right;
+	width: 295.5px;
+	height: 283.5px;
+	padding-right: 100px;
+	padding-top: 10px;
+}
+
+.gen-info{
+	display: inline;
+}
+
+.headshot{
+	max-height: 25%;
+	max-width: 25%;
+	min-height: 383.172px;
+	min-width: 255.5px;
+
+	float: left;
+}
+
+.about-head{
+	font-size: 50px;
+	margin-bottom: 0px;
+	min-width: 250px;
+	max-width: 250px;
+	margin-left: 270px;
+	border-style: none none solid none;
+	border-color: black;
+	height: 50px;
+	margin-bottom: 10px;
+}
+
+.about-me{
+	font-size: 30px;
+	background-color: #ACFFF2;
+	max-width: 550px;
+	min-width: 500px;
+	margin-left: 270px;
+	margin-top: 0px;
+
+}
+
+.contact{
+	background-color: #ACFFF2;
+	max-width: 400px;
+}
+.contact-head{
+	font-size: 30px;
+	margin-bottom: 0px;
+}
+
+.contact-info{
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+.ext-link{
+	font-weight: bold;
+	font-size: 25px;
+	color: black;
+}
+
+.proj-one{
+	display: inline-block;
+
+}
+
+#stormlight-img-two{
+	float: left;
+	margin-right: 20px;
+	width: 480.75px;
+	height: 275.25px;
+	padding-top: 10px;
+	border-radius: 25px;
+}
+
+.proj-head{
+	margin-bottom: 5px;
+}
+
+.proj-subhead{
+	margin-bottom: 5px;
+	margin-top: 0px;
+	font-style: italic;
+	color: #505050;
+}
+
+.proj-info{
+	font-size: 30px;
+	margin-left: 500px;
+	min-width: 570px;
+	color: #505050;
+	font-weight: bold;
+
+}
+
+.sec-head{
+	font-size: 40px;
+	margin-bottom: 0px;
+}
+
+.subhead{
+	font-size: 30px;
+	font-style: italic;
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+
+.features{
+	align-items: center;
+	border-style: solid none solid none;
+}
+
+.sub-feature{
+	width: 1000px;
+	height: 250px;
+	display: inline-block;
+
+}
+
+.feature-desc{
+	font-size: 25px;
+	min-width: 400px;
+	margin-left: 350px;
+	margin-top: 0px;
+	color: #505050;
+	font-weight: bold;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	border-radius: 10px;
+	
+}
+
+.feature-img{
+	border-radius: 18px;
+}
+
+#lashing{
+	float: left;
+}
+
+#lashing-desc{
+	/*background-color: #C28EFD;*/
+}
+
+#mana{
+	float: left;
+	width: 330px;
+	height: 210px;
+}
+
+#mana-desc{
+	/*background-color: #79F0E3;*/
+}
+
+#combat{
+	float: left;
+	width: 338.1px;
+	height: 235.2px;
+}
+
+#combat-desc{
+	/*background-color: #79F0A6;*/
+}
+
+/*
+<dl class="list">
+				<dt>Changing Gravity System</dt>
+				<dd>Using the WASD keys, the player is able to change the direction in which gravity pulls them, allowing them to fly and walk on walls.</dd>
+				<dd>This can also be applied to enemies and various interactable objects</dd>
+				<dt>Mana/"Stormlight" system</dt>
+				<dd>The player fuels their gravity changes with mana or "Stormlight". This can be replenished from defeated enemies as well as interactable objects.</dd>
+				<dt>Multiple enemy types</dt>
+				<dt>Two fully playable levels</dt>
+			</dl>
+*/

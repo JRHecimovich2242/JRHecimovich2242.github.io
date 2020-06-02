@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<nav class="site-nav">
+		<ul>
+			<li>Work</li>
+			<li>About</li>
+		</ul>
+	</nav>
+	<main>
+		<h1 class="proj-head">Stormlight Archive 2D Platformer</h1>
+		<h2 class="proj-subhead">Made with Unity. November 2019 - Present.</h2>
+		<h2 class="proj-subhead">Individual Project</h2>
+		<div class="proj-one">
+			<img src="images/stormlight.png" id="stormlight-img-two">
+			<p class="proj-info">
+				As a first engagement with designing and developing my own game, I chose to adapt some aspects of Brandon Sanderson's <a href="">The Stormlight Archive</a> and create a 2D platformer demo utilizing features of the magic system described in the novels.
+			</p>
+		</div>
+		<div class="proj-one">
+			<h2 class="sec-head">Features</h2>
+			<div class="features">
+				<h3 class="subhead">Dynamic Gravity System</h3>
+				<div class="sub-feature" id="lashing-div">
+					<img src="images/lashing.png" class="feature-img" id="lashing">
+					<p class="feature-desc"  id="lashing-desc">Using the WASD keys, the player can change the direction in which gravity pulls them. This is accomplished by manipulating Unity Rigidbody2D and ConstantForce2D components. In addition, animations are adjusted to display properly no matter the player's orientation.</p>
+				</div>
+			</div>
+			<div class="features">
+				<h3 class="subhead">Mana and "Stormlight"</h3>
+				<div class="sub-feature" id="mana-div">
+					<img src="images/mana.png" class="feature-img" id="mana">
+					<p class="feature-desc" id="mana-desc">
+						Gravity changing (or "Lashing") is powered by mana ("Stormlight") which can be obtained both through defeating enemies and by engaging with interactable objects found throughout the levels. This stormlight can be used to interact with the environment, to lash, or even to restore lost health.
+					</p>
+				</div>
+			</div>
+			<div class="features">
+				<h3 class="subhead">Combat</h3>
+				<div class="sub-feature" id="combat-div">
+					<img src="images/combat.png" class="feature-img" id="combat">
+					<p class="feature-desc" id="combat-desc">
+						Currently this demo features a single brawler enemy archetype, but more enemy archetypes are planned. These enemies can be defeated through traditional means, or by lashing various interactable objects towards them. When stunned, the enemies themselves can be lashed around the environment, but all at the cost of stormlight.
+					</p>
+				</div>
+			</div>
+			
+			
+
+			
+		</div>
+	</main>
+</body>
+</html>
