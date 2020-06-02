@@ -2,14 +2,18 @@
 <html>
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Oswald&display=swap" rel="stylesheet">
 </head>
 <body>
-	<nav class="site-nav">
-		<ul>
-			<li>Work</li>
-			<li>About</li>
-		</ul>
-	</nav>
+	<div class="top-bar">
+		<nav class="site-nav">
+			<ul>
+				<li><a href="index.html">Work</a></li>
+				<li><a href="about.html">About</a></li>
+				<h2 id="name">J.R. Hecimovich</h2>
+			</ul>
+		</nav>
+	</div>
 	<main>
 		<h1 class="proj-head">Stormlight Archive 2D Platformer</h1>
 		<h2 class="proj-subhead">Made with Unity. November 2019 - Present.</h2>
@@ -17,7 +21,7 @@
 		<div class="proj-one">
 			<img src="images/stormlight.png" id="stormlight-img-two">
 			<p class="proj-info">
-				As a first engagement with designing and developing my own game, I chose to adapt some aspects of Brandon Sanderson's <a href="">The Stormlight Archive</a> and create a 2D platformer demo utilizing features of the magic system described in the novels.
+				As a first engagement with designing and developing my own game, I chose to adapt some aspects of Brandon Sanderson's <a href="https://en.wikipedia.org/wiki/The_Stormlight_Archive">The Stormlight Archive</a> and create a 2D platformer demo utilizing features of the magic system described in the novels.
 			</p>
 		</div>
 		<div class="proj-one">
@@ -26,7 +30,7 @@
 				<h3 class="subhead">Dynamic Gravity System</h3>
 				<div class="sub-feature" id="lashing-div">
 					<img src="images/lashing.png" class="feature-img" id="lashing">
-					<p class="feature-desc"  id="lashing-desc">Using the WASD keys, the player can change the direction in which gravity pulls them. This is accomplished by manipulating Unity Rigidbody2D and ConstantForce2D components. In addition, animations are adjusted to display properly no matter the player's orientation.</p>
+					<p class="feature-desc"  id="lashing-desc">Using the WASD keys, the player can change the direction in which gravity pulls them. This is accomplished by manipulating Unity <span class="important">Rigidbody2D</span> and <span class="important">ConstantForce2D</span> components. In addition, animations are adjusted to display properly no matter the player's orientation.</p>
 				</div>
 			</div>
 			<div class="features">
@@ -47,10 +51,13 @@
 					</p>
 				</div>
 			</div>
-			
-			
-
-			
+			<div class="features">
+				<h3 class="subhead">See it in Action</h3>
+				<div class="sub-feature" id="download-div">
+					<img src="images/download.png" class="feature-img" id="download">
+					<p class="feature-desc" id="download-desc">You can download the beta demo <a href="https://drive.google.com/file/d/17nLLGGAf2vnot608zHWIsGgW6P_3SohO/view?usp=sharing" class="ext-link">here,</a> or you can watch a brief video of some early gameplay <a href="https://drive.google.com/file/d/1MfcM7-tB0FHQgwNFM30UJZ6lKWNcGkBT/view?usp=sharing" class="ext-link">here.</a></p>
+				</div>
+			</div>	
 		</div>
 	</main>
 </body>

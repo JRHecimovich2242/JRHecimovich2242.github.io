@@ -13,15 +13,16 @@ nav.site-nav ul{
 }
 
 nav.site-nav li{
-	font-family: sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 30px;
 	color: black;
 	margin: 5px;
 	display: inline-block;
 	padding: 5px;
 	user-select: none;
 	position: relative;
+	background-color: #ccc;
 }
 
 nav.site-nav li:hover{
@@ -32,9 +33,27 @@ nav.site-nav li:active{
 	color: #aaa;
 }
 
+#name{
+	float: right;
+	font-size: 30px;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 10px;
+	padding-right: 30px;
+}
+
+
+
 main{
 	margin-top: 100px;
 	font-family: sans-serif;
+}
+
+p, h3{
+	font-family: 'Open Sans', sans-serif;
+}
+
+h2{
+	font-family: 'Oswald', sans-serif;
 }
 
 .project-header{
@@ -44,8 +63,6 @@ main{
 	margin-bottom: 0px;
 	margin-top: 5px;
 	font-weight: bold;
-
-
 }
 
 
@@ -60,7 +77,6 @@ main{
 }
 
 .intro{
-	font-family: sans-serif;
 	font-weight: normal;
 	max-width: 500px;
 	align-items: center;
@@ -74,13 +90,12 @@ main{
 }
 
 .short-bio{
-	font-family: sans-serif;
 	font-weight: normal;
 	font-size: 20px;
 }
 
 .project-container{
-	margin-top: 50px;
+	margin-top: 90px;
 }
 
 .project-1{
@@ -93,7 +108,6 @@ main{
 
 .p1-info{
 	float: left;
-	font-family: sans-serif;
 	font-weight: normal;
 	width: 400px;
 	margin-left: 50px;
@@ -125,18 +139,18 @@ main{
 	min-width: 1000px;
 	background-color: #BEFFAC;
 	height: 300px;
-	margin-left: 50px;
+	margin-left: 0px;
 	margin-top: 50px;
 }
 
 .p2-info{
 	float: left;
-	font-family: sans-serif;
 	font-weight: normal;
 	width: 400px;
 	margin-left: 50px;
 	padding-top: 10px;
 	font-size: 20px;
+	margin-top: 0px;
 }
 
 #p2-header{
@@ -161,8 +175,8 @@ main{
 }
 
 .headshot{
-	max-height: 25%;
-	max-width: 25%;
+	max-height: 383.172px;
+	max-width: 255.5px;
 	min-height: 383.172px;
 	min-width: 255.5px;
 
@@ -179,12 +193,13 @@ main{
 	border-color: black;
 	height: 50px;
 	margin-bottom: 10px;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .about-me{
 	font-size: 30px;
 	background-color: #ACFFF2;
-	max-width: 550px;
+	max-width: 650px;
 	min-width: 500px;
 	margin-left: 270px;
 	margin-top: 0px;
@@ -207,7 +222,6 @@ main{
 
 .ext-link{
 	font-weight: bold;
-	font-size: 25px;
 	color: black;
 }
 
@@ -242,6 +256,7 @@ main{
 	min-width: 570px;
 	color: #505050;
 	font-weight: bold;
+	margin-top: 0px;
 
 }
 
@@ -275,9 +290,8 @@ main{
 	margin-left: 350px;
 	margin-top: 0px;
 	color: #505050;
-	font-weight: bold;
 	padding-bottom: 20px;
-	padding-top: 20px;
+	padding-top: 0px;
 	border-radius: 10px;
 	
 }
@@ -314,6 +328,44 @@ main{
 	/*background-color: #79F0A6;*/
 }
 
+#download{
+	float: left;
+	width: 338.0940001px;
+	height: 241.0133259px;
+}
+
+#download-desc{
+
+}
+
+a{
+	text-decoration: none;
+}
+
+a:link{
+	color: black;
+}
+
+a:visited{
+	color: black;
+}
+
+a:hover{
+	color: grey;
+}
+
+a:active{
+	color: #505050;
+}
+
+.learn{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.important{
+	font-weight: bold;
+}
 /*
 <dl class="list">
 				<dt>Changing Gravity System</dt>
